@@ -13,24 +13,27 @@ int main() {
 
     Mandelbrot mandelbrot(width, height);
     JuliaSet jl(width, height);
+    Newton newton(width, height);
 
     mandelbrot.setZoom(300.0f);
     mandelbrot.setMoveX(-0.5f);
     mandelbrot.setMoveY(0.0f);
-    mandelbrot.setMaxIterations(20);
-    mandelbrot.setRGBsaturation(0.1f, 0.34f, 0.67f);
+    mandelbrot.setMaxIterations(100);
+    mandelbrot.setRGBsaturation(0.6f, 0.34f, 0.7f);
+    mandelbrot.setScapeRadius(3.0f);
 
     jl.setComplexConstant(-0.8f, 0.2176f);
     jl.setMaxIterations(100);
-    jl.setRGBsaturation(0.2f, 0.7f, 0.8f);
+    jl.setRGBsaturation(0.5f, 0.0f, 0.35f);
+    jl.setScapeRadius(1.2f);
 
     PerlinNoise perlin(width, height);
     std::string fileName;
 
    // std::vector<unsigned char> image_data = perlin.generateImage(fileName);
-   // std::vector<unsigned char> image_data = mandelbrot.generateImage(fileName);
-    std::vector<unsigned char> image_data = jl.generateImage(fileName);
-
+    //std::vector<unsigned char> image_data = mandelbrot.generateImage(fileName);
+    //std::vector<unsigned char> image_data = jl.generateImage(fileName);
+    std::vector<unsigned char> image_data = newton.generateImage(fileName);
     // SFML Texture
     sf::Texture texture;
     texture.create(width, height);
