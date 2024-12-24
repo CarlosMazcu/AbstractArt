@@ -27,4 +27,37 @@ private:
     float grad(int hash, float x, float y);
 };
 
+class SimplexNoise
+{
+public:
+    SimplexNoise(int w, int h) {
+        initializePermutation();
+        scale = 10;
+        width = w;
+        height = h;
+
+    }
+    std::vector<unsigned char> generateImage(std::string& imageName);
+    void setScale(double sc) { scale = sc; }
+
+private:
+    const std::vector<std::vector<int>> grad2 = {
+        {1, 1}, {-1, 1}, {1, -1}, {-1, -1},
+        {1, 0}, {-1, 0}, {0, 1}, {0, -1}
+    };
+
+    double noise(double xin, double yin);
+
+    std::vector<int> perm; // Permutación de gradientes
+
+    double dot(const std::vector<int>& g, double x, double y) {
+        return g[0] * x + g[1] * y;
+    }
+
+    void initializePermutation();
+
+    double scale;
+    int width, height;
+};
+
 #endif

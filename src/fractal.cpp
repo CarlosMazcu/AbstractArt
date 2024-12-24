@@ -218,7 +218,7 @@ std::vector<unsigned char> Newton::generateNewtonImage() {
             std::complex<double> z(real, imag);
 
             int iterations = 0;
-            const int maxIterations = 100;  // Número máximo de iteraciones para el método de Newton
+            //const int maxIterations = 100;  // Número máximo de iteraciones para el método de Newton
             double tolerance = 1e-6;  // Tolerancia de convergencia
 
             // Iteración de Newton

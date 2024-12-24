@@ -2,6 +2,7 @@
 #define __IMAGE_UTILS_HPP__ 1
 #include "perlin.hpp"
 #include "fractal.hpp"
+#include "conway.hpp"
 
 
 std::string generateUniqueFileName();

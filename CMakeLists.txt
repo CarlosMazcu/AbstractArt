@@ -19,10 +19,12 @@ set(SOURCES
     src/perlin.cpp
     src/fractal.cpp
     src/image_utils.cpp
+    src/conway.cpp
 
     include/perlin.hpp
     include/fractal.hpp
     include/image_utils.hpp
+    include/conway.hpp
 )
 
 # Crear el ejecutable
