@@ -26,7 +26,7 @@ int main() {
     mandelbrot.setMoveX(-0.5f);
     mandelbrot.setMoveY(0.0f);
     mandelbrot.setMaxIterations(100);
-    mandelbrot.setRGBsaturation(0.6f, 0.34f, 0.7f);
+    mandelbrot.setRGBsaturation(0.6f, 0.74f, 0.7f);
     mandelbrot.setScapeRadius(3.0f);
 
     jl.setComplexConstant(-0.8f, 0.2176f);
@@ -38,8 +38,8 @@ int main() {
 
    // std::vector<unsigned char> image_data = perlin.generateImage(fileName);
     //std::vector<unsigned char> image_data = mandelbrot.generateImage(fileName);
-    //std::vector<unsigned char> image_data = jl.generateImage(fileName);
-    std::vector<unsigned char> image_data = newton.generateImage(fileName);
+    std::vector<unsigned char> image_data = jl.generateImage(fileName);
+   // std::vector<unsigned char> image_data = newton.generateImage(fileName);
     //std::vector<unsigned char> image_data = simplex.generateImage(fileName);
     
     // SFML Texture
