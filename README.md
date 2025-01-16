@@ -14,6 +14,8 @@ Each time the program is closed, the generated image is saved in the `assets` di
   - [Fractals](#fractals)
   - [Conway's Game of Life](#conways-game-of-life)
 - [Saving Generated Images](#saving-generated-images)
+- [FAQ](#faq)
+- [Road Map](#roadmap)
 
 ---
 
