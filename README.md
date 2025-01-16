@@ -123,11 +123,17 @@ Fractals are infinitely complex patterns that are self-similar across different 
 The Mandelbrot set is one of the most famous fractals, visualized by iterating a simple formula:  
 `z = z² + c`, where `z` and `c` are complex numbers. The result determines whether a point escapes to infinity.
 
+![Mandelbrot Example](assets/mandelbrot_20250116_005721.png)
+
 #### 2. Julia Set
 The Julia Set is similar to the Mandelbrot Set but focuses on specific complex numbers to produce intricate, mesmerizing patterns.
 
+![Julia Set Example](assets/julia_set_20241224_023744.png)
+
 #### 3. Newton
 The Newton fractal visualizes the convergence of complex numbers under Newton's method for solving equations. Different colors represent the roots and their convergence speed.
+
+![Julia Set Example](assets/newton_20241224_030555.png)
 
 **Example Code for Image Generation using Fractals**:
 ```cpp
