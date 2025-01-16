@@ -5,6 +5,16 @@ This project is an **algorithmic abstract art generator** that leverages algorit
 Each time the program is closed, the generated image is saved in the `assets` directory.
 
 ![GitHub stars](https://img.shields.io/github/stars/username/repository?style=social)
+![Test Status](https://img.shields.io/badge/tests-passing-brightgreen)
+![Coverage](https://img.shields.io/codecov/c/github/username/repository)
+![Dependencies](https://img.shields.io/david/username/repository)
+![Downloads](https://img.shields.io/github/downloads/username/repository/latest/total)
+![Forks](https://img.shields.io/github/forks/username/repository?style=social)
+![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
+![OS Compatibility](https://img.shields.io/badge/os-windows%2Clinux%2CmacOS-brightgreen)
+
+![Size](https://img.shields.io/github/repo-size/username/repository)
+
 
 ---
 
