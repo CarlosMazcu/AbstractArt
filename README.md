@@ -4,7 +4,7 @@ This project is an **algorithmic abstract art generator** that leverages algorit
 
 Each time the program is closed, the generated image is saved in the `assets` directory.
 
-![GitHub stars](https://img.shields.io/github/stars/username/repository?style=social)
+![GitHub stars](https://img.shields.io/github/stars/CarlosMazcu/AbstractArt?style=social)
 ![Test Status](https://img.shields.io/badge/tests-passing-brightgreen)
 ![Coverage](https://img.shields.io/codecov/c/github/username/repository)
 ![Dependencies](https://img.shields.io/david/username/repository)
