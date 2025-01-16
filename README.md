@@ -5,12 +5,11 @@ This project is an **algorithmic abstract art generator** that leverages algorit
 Each time the program is closed, the generated image is saved in the `assets` directory.
 
 ![GitHub stars](https://img.shields.io/github/stars/CarlosMazcu/AbstractArt?style=social)
-![Test Status](https://img.shields.io/badge/tests-passing-brightgreen)
-![Coverage](https://img.shields.io/codecov/c/github/CarlosMazcu/AbstractArt)
-![Dependencies](https://img.shields.io/david/CarlosMazcu/AbstractArt)
+
 ![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/latest/total)
-![Forks](https://img.shields.io/github/forks/CarlosMazcu/AbstractArt?style=social)
-![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
+
+
+
 ![OS Compatibility](https://img.shields.io/badge/os-windows-brightgreen)
 
 ![Size](https://img.shields.io/github/repo-size/CarlosMazcu/AbstractArt)
@@ -278,5 +277,9 @@ Yes! Simply create a new class that implements the same interface as the provide
 - [ ] Add a GUI for easier interaction.
 
 ---
+
+![Test Status](https://img.shields.io/badge/tests-passing-brightgreen)
+
+![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
 
 Enjoy experimenting with **algorithmic abstract art**!
