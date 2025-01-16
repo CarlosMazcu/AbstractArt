@@ -125,9 +125,9 @@ float PerlinNoise::grad(int hash, float x, float y) {
 std::vector<unsigned char> SimplexNoise::generateImage(std::string& imageName)
 {
     std::vector<unsigned char> i(width * height * 4);
-    for (unsigned int y = 0; y < height; y++) {
+    for (int y = 0; y < height; y++) {
         float ny = y / static_cast<float>(height) * scale;
-        for (unsigned int x = 0; x < width; x++) {
+        for (int x = 0; x < width; x++) {
             double nx = x / static_cast<float>(width) * scale;
             double n = noise(nx, ny);
 
@@ -152,8 +152,8 @@ double SimplexNoise::noise(double xin, double yin)
 
 	// Calcular skew (desplazamiento) del grid
 	double s = (xin + yin) * F2;
-	int i = floor(xin + s);
-	int j = floor(yin + s);
+	int i = (int)floor(xin + s);
+	int j = (int)floor(yin + s);
 
 	// Unskew para encontrar la posición en el grid
 	double t = (i + j) * G2;

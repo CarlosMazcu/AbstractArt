@@ -201,9 +201,9 @@ private:
     unsigned int width, height;
     float zoom, moveX, moveY;
     float scapeRadius;
-    std::complex<float> c;  // Número complejo constante para Julia
+    std::complex<float> c;
     int maxIterations;
-    float sat_r, sat_g, sat_b;  // Saturación RGB
+    float sat_r, sat_g, sat_b;  
 
     /**
      * @brief Generates the complete Julia set image.
@@ -326,12 +326,12 @@ public:
         sat_b = (b > 1.0f) ? 1.0f : b;
     }
     private:
-        unsigned int width, height;  // Dimensiones de la imagen
-        int maxIterations;          // Máximo de iteraciones
-        float zoom;                 // Zoom para el fractal
-        float moveX, moveY;         // Traslación del fractal
-        float tolerance;            // Tolerancia para convergencia
-        float sat_r, sat_g, sat_b;  // Saturación de colores RGB
+        unsigned int width, height;  
+        int maxIterations;          
+        float zoom;                
+        float moveX, moveY;         
+        float tolerance;            
+        float sat_r, sat_g, sat_b;  
 };
 
 
