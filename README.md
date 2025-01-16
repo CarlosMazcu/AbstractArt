@@ -6,6 +6,17 @@ Each time the program is closed, the generated image is saved in the `assets` di
 
 ---
 
+## Table of Contents
+- [Requirements](#requirements)
+- [Compilation](#compilation)
+- [Features](#features)
+  - [Noise-Based Algorithms](#noise-based-algorithms)
+  - [Fractals](#fractals)
+  - [Conway's Game of Life](#conways-game-of-life)
+- [Saving Generated Images](#saving-generated-images)
+
+---
+
 ## Requirements
 
 To run this project, you need:
