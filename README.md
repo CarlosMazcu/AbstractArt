@@ -1,4 +1,5 @@
 # Algorithmic Abstract Art Generator
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
 This project is an **algorithmic abstract art generator** that leverages algorithms such as **noise-based methods** (Perlin Noise, Simplex Noise), **fractals** (Mandelbrot, Julia Set, Newton), and the **Game of Life** by Conway. 
 
@@ -28,6 +29,13 @@ All other dependencies are already included in the project.
 
 ---
 
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/abstract-art-generator.git
+    ```
+---
+
 ## Compilation
 
 To compile the project:
@@ -46,6 +54,8 @@ To compile the project:
 
 #### 1. Perlin Noise
 Perlin Noise is a type of gradient noise that produces smooth, natural-looking patterns, often used in procedural generation for terrains, clouds, and other textures in computer graphics. It works by interpolating gradients across a grid of points to create a continuous, non-repeating pattern.
+
+- [Perlin Noise Explained](https://en.wikipedia.org/wiki/Perlin_noise)
 
 #### 2. Simplex Noise
 Simplex Noise is an improved version of Perlin Noise developed by Ken Perlin. It is computationally more efficient and avoids the visual artifacts sometimes seen in Perlin Noise. Simplex Noise is often used for generating organic textures in 2D and 3D spaces.
@@ -102,6 +112,8 @@ int main() {
 ### Fractals
 
 Fractals are infinitely complex patterns that are self-similar across different scales. They are created by repeating a simple mathematical formula iteratively. These structures often appear in nature, such as snowflakes, tree branches, and coastlines.
+
+- [Introduction to Fractals](https://fractalfoundation.org/resources/what-are-fractals/)
 
 #### 1. Mandelbrot
 The Mandelbrot set is one of the most famous fractals, visualized by iterating a simple formula:  
@@ -177,6 +189,8 @@ Conway's Game of Life is a cellular automaton devised by mathematician John Conw
 
 This creates fascinating emergent behavior, often resembling biological systems.
 
+- [Conway's Game of Life - Interactive Demo](https://playgameoflife.com/)
+
 **Example Code for Game of Life**:
 ```cpp
 int main() {
@@ -224,6 +238,22 @@ int main() {
 
 - Each time you close the program, the generated image is automatically saved in the `assets` directory as a PNG file.
 - If the `assets` directory does not exist, it will be created during runtime.
+
+---
+
+## FAQ
+### How can I modify the resolution of the generated images?
+Change the `width` and `height` variables in `main.cc`.
+
+### Can I add my own algorithms?
+Yes! Simply create a new class that implements the same interface as the provided algorithms.
+
+---
+
+## Roadmap
+- [ ] Add Voronoi diagrams as a generation algorithm.
+- [ ] Improve performance for high-resolution fractals.
+- [ ] Add a GUI for easier interaction.
 
 ---
 
