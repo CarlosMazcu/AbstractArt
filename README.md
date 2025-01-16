@@ -1,19 +1,8 @@
-# Algorithmic Abstract Art Generator ![Build](https://img.shields.io/badge/build-passing-brightgreen)
+# Algorithmic Abstract Art Generator ![Build](https://img.shields.io/badge/build-passing-brightgreen) ![Size](https://img.shields.io/github/repo-size/CarlosMazcu/AbstractArt) ![OS Compatibility](https://img.shields.io/badge/os-windows-brightgreen)
 
 This project is an **algorithmic abstract art generator** that leverages algorithms such as **noise-based methods** (Perlin Noise, Simplex Noise), **fractals** (Mandelbrot, Julia Set, Newton), and the **Game of Life** by Conway. 
 
 Each time the program is closed, the generated image is saved in the `assets` directory.
-
-![GitHub stars](https://img.shields.io/github/stars/CarlosMazcu/AbstractArt?style=social)
-
-![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/latest/total)
-
-
-
-![OS Compatibility](https://img.shields.io/badge/os-windows-brightgreen)
-
-![Size](https://img.shields.io/github/repo-size/CarlosMazcu/AbstractArt)
-
 
 ---
 
@@ -281,5 +270,7 @@ Yes! Simply create a new class that implements the same interface as the provide
 ![Test Status](https://img.shields.io/badge/tests-passing-brightgreen)
 
 ![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
+
+![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/latest/total)
 
 Enjoy experimenting with **algorithmic abstract art**!
