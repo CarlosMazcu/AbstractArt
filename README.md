@@ -45,7 +45,7 @@ All other dependencies are already included in the project.
 
    If you prefer, you can also download the latest release as a ZIP file. Simply go to the **Releases** page of the project and click the **Download ZIP** button for the latest release:
    
-   [Download the ZIP file from the latest release](https://github.com/username/abstract-art-generator/releases/latest)
+   [Download the ZIP file from the latest release](https://github.com/CarlosMazcu/AbstractArt/releases/latest)
    
 ---
 
