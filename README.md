@@ -1,5 +1,4 @@
-# Algorithmic Abstract Art Generator
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
+# Algorithmic Abstract Art Generator ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
 This project is an **algorithmic abstract art generator** that leverages algorithms such as **noise-based methods** (Perlin Noise, Simplex Noise), **fractals** (Mandelbrot, Julia Set, Newton), and the **Game of Life** by Conway. 
 
@@ -22,7 +21,7 @@ Each time the program is closed, the generated image is saved in the `assets` di
 
 To run this project, you need:
 
-1. **CMake** (minimum version 3.10)
+1. **CMake** (minimum version 3.10) ![CMake Version](https://img.shields.io/badge/cmake-v3.10%2B-blue)
 2. **Visual Studio 2022**
 
 All other dependencies are already included in the project.
