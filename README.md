@@ -6,7 +6,7 @@ Each time the program is closed, the generated image is saved in the `assets` di
 
 ---
 
-## Table of Contents ![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
+## Table of Contents 
 - [Requirements](#requirements)
 - [Compilation](#compilation)
 - [Features](#features)
