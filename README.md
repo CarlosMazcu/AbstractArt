@@ -271,6 +271,6 @@ Yes! Simply create a new class that implements the same interface as the provide
 
 ![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
 
-![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/latest/total)
+![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/v1.0.0/total)
 
 Enjoy experimenting with **algorithmic abstract art**!
