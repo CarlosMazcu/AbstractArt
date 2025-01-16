@@ -1,4 +1,4 @@
-# Algorithmic Abstract Art Generator ![Build](https://img.shields.io/badge/build-passing-brightgreen) ![Size](https://img.shields.io/github/repo-size/CarlosMazcu/AbstractArt) ![OS Compatibility](https://img.shields.io/badge/os-windows-brightgreen)
+# Algorithmic Abstract Art Generator ![Size](https://img.shields.io/github/repo-size/CarlosMazcu/AbstractArt) ![OS Compatibility](https://img.shields.io/badge/os-windows-brightgreen)
 
 This project is an **algorithmic abstract art generator** that leverages algorithms such as **noise-based methods** (Perlin Noise, Simplex Noise), **fractals** (Mandelbrot, Julia Set, Newton), and the **Game of Life** by Conway. 
 
@@ -19,7 +19,7 @@ Each time the program is closed, the generated image is saved in the `assets` di
 
 ---
 
-## Requirements ![Test Status](https://img.shields.io/badge/tests-passing-brightgreen)
+## Requirements ![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
 
  
 To run this project, you need:
@@ -31,7 +31,7 @@ All other dependencies are already included in the project.
 
 ---
 
-## Installation ![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
+## Installation ![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/v1.0.0/total)
 
 ### Option 1: Clone the repository
 
@@ -49,7 +49,7 @@ All other dependencies are already included in the project.
    
 ---
 
-## Compilation ![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/v1.0.0/total)
+## Compilation ![Build](https://img.shields.io/badge/build-passing-brightgreen) 
 
 To compile the project:
 
