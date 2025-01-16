@@ -30,12 +30,21 @@ All other dependencies are already included in the project.
 
 ---
 
-## Installation
-1. Clone the repository:
+## Installation ![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
+
+### Option 1: Clone the repository
+
+   If you have **Git** installed, you can clone the repository using the following command:
 
    ```bash
    git clone https://github.com/username/abstract-art-generator.git
-    ```
+   ```
+
+### Option 2: Download the ZIP file
+
+   If you prefer, you can also download the latest release as a ZIP file. Simply go to the **Releases** page of the project and click the **Download ZIP** button for the latest release:
+   
+   [Download the ZIP file from the latest release](https://github.com/username/abstract-art-generator/releases/latest)
 ---
 
 ## Compilation
