@@ -6,14 +6,14 @@ Each time the program is closed, the generated image is saved in the `assets` di
 
 ![GitHub stars](https://img.shields.io/github/stars/CarlosMazcu/AbstractArt?style=social)
 ![Test Status](https://img.shields.io/badge/tests-passing-brightgreen)
-![Coverage](https://img.shields.io/codecov/c/github/username/repository)
-![Dependencies](https://img.shields.io/david/username/repository)
-![Downloads](https://img.shields.io/github/downloads/username/repository/latest/total)
-![Forks](https://img.shields.io/github/forks/username/repository?style=social)
+![Coverage](https://img.shields.io/codecov/c/github/CarlosMazcu/AbstractArt)
+![Dependencies](https://img.shields.io/david/CarlosMazcu/AbstractArt)
+![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/latest/total)
+![Forks](https://img.shields.io/github/forks/CarlosMazcu/AbstractArt?style=social)
 ![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
-![OS Compatibility](https://img.shields.io/badge/os-windows%2Clinux%2CmacOS-brightgreen)
+![OS Compatibility](https://img.shields.io/badge/os-windows-brightgreen)
 
-![Size](https://img.shields.io/github/repo-size/username/repository)
+![Size](https://img.shields.io/github/repo-size/CarlosMazcu/AbstractArt)
 
 
 ---
