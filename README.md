@@ -32,6 +32,7 @@ All other dependencies are already included in the project.
 
 ## Installation
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/username/abstract-art-generator.git
     ```
@@ -60,6 +61,8 @@ Perlin Noise is a type of gradient noise that produces smooth, natural-looking p
 
 #### 2. Simplex Noise
 Simplex Noise is an improved version of Perlin Noise developed by Ken Perlin. It is computationally more efficient and avoids the visual artifacts sometimes seen in Perlin Noise. Simplex Noise is often used for generating organic textures in 2D and 3D spaces.
+
+![Simplex Noise Example](assets/simplex_noise_20250116_005312.png)
 
 **Example Code for Image Generation using Noise Algorithms**:
 ```cpp
