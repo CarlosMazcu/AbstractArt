@@ -6,7 +6,7 @@ Each time the program is closed, the generated image is saved in the `assets` di
 
 ---
 
-## Table of Contents 
+## Table of Contents ![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
 - [Requirements](#requirements)
 - [Compilation](#compilation)
 - [Features](#features)
@@ -19,8 +19,9 @@ Each time the program is closed, the generated image is saved in the `assets` di
 
 ---
 
-## Requirements
+## Requirements ![Test Status](https://img.shields.io/badge/tests-passing-brightgreen)
 
+ 
 To run this project, you need:
 
 1. **CMake** (minimum version 3.10) ![CMake Version](https://img.shields.io/badge/cmake-v3.10%2B-blue)
@@ -48,7 +49,7 @@ All other dependencies are already included in the project.
    
 ---
 
-## Compilation
+## Compilation ![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/v1.0.0/total)
 
 To compile the project:
 
@@ -276,11 +277,5 @@ Yes! Simply create a new class that implements the same interface as the provide
 - [ ] Add a GUI for easier interaction.
 
 ---
-
-![Test Status](https://img.shields.io/badge/tests-passing-brightgreen)
-
-![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
-
-![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/v1.0.0/total)
 
 Enjoy experimenting with **algorithmic abstract art**!
