@@ -31,7 +31,7 @@ All other dependencies are already included in the project.
 
 ---
 
-## Installation ![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/v1.0.0/total)
+## Installation ![Downloads](https://img.shields.io/github/downloads/CarlosMazcu/AbstractArt/releases/latest/total)
 
 ### Option 1: Clone the repository
 
